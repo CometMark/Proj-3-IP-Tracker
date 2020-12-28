@@ -1,0 +1,18 @@
+iframe{
+    width:1498px;
+    height: 475px;
+}
+
+@media only screen and (max-width: 768px){
+    iframe{
+        width:768px;
+        height: 770px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    iframe{
+        width:375px;
+        height: 770px;
+    }
+}

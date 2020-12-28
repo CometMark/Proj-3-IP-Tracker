@@ -1,0 +1,68 @@
+h1{
+    font-family: 'Rubik', sans-serif; 
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: gray;
+}
+
+.add_details{
+display: flex;
+flex-flow: row wrap;
+align-content: center;
+}
+
+.box_content{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 10px 50px 10px 50px;
+    text-align: start;
+}
+
+
+@media only screen and (max-width: 768px){
+    p{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .box_content{
+        padding: 0px 10px 0px 30px;
+        width: 20%;
+    }
+    .add_details{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        padding-left: 20px;
+
+    }
+    .last_two{
+        position: relative;
+        left: 70px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .add_details{
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+    .box_content{
+        padding: 0px 10px 0px 0px;
+        width: 20%;
+    }
+.last_two{
+    position: relative;
+    left: 0px;
+}
+  
+}
